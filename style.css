@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Courier New';
+    font-size: 15px;
+}
+h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+.sectiona{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 5px green solid;
+}
+#sectiona{
+    border: 5px blue solid;
+    margin: 25px;
+    padding: 25px;
+}
+#sectionb{
+    border: 5px pink solid;
+    margin: 25px;
+    padding: 25px;
+}
+#sectionc{
+    border: 5px teal solid;
+    margin: 25px;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+li{
+    list-style-type: none;
+}
+.my-form{
+    margin: 20px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"],
+.my-form input[type="email"], 
+.my-form textarea{
+    padding: auto;
+    width: 100%;
+}
+.btn{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.btn:hover{
+    background-color: grey;
+}
